@@ -18,7 +18,7 @@ function Home() {
         const fetchContacts = async () => { //using async method
             try {
                 // function to hold response from the API
-                const response = await fetch('http://localhost:8000/contacts');
+                const response = await fetch('https://chat-app-xret.onrender.com/contacts');
             // if response isnt ok, an error message will display
                 if (!response.ok) {
                     throw new Error('Error fetching data');

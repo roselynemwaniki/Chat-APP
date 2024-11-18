@@ -4,7 +4,7 @@ function ContactsList() {
     const [contacts, setContacts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/contacts')
+        fetch('https://chat-app-xret.onrender.com/contacts')
             .then((response) => response.json())
             .then((data) => setContacts(data))
             .catch((error) => console.error('Error fetching contacts:', error));

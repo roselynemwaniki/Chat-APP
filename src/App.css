@@ -2,9 +2,9 @@
 form {
     display: flex;
     flex-direction: column;
-    background-image: url(file:///home/erick/Downloads/ppr-2%20background);
     background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(https://wallup.net/wp-content/uploads/2017/03/29/475010-night_sky-starry_night-road-748x421.jpg);
   }
   
   input {

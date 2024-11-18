@@ -4,7 +4,6 @@ import UserProfile from "./PagesInMain/Profile";
 import Navbar from './components/Navbar';
 import "./App.css";
 import SignUpForm from './PagesInMain/signupform';
-import NewContact from './PagesInMain/NewContact'; // Ensure this component exists
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Routes>
           <Route path="/" element={<SignUpForm />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/new-contact" element={<NewContact />} />
           <Route path="/profile" element={<UserProfile />} />
         </Routes>
       </div>

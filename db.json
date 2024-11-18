@@ -71,11 +71,22 @@
       "name": "Laura Scott",
       "lastseen": "3 days ago",
       "image": "https://e1.pngegg.com/pngimages/770/528/png-clipart-dora-the-explorer-thumbnail.png5"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "contactId": "1",
+      "text": "Hello, how are you?",
+      "timestamp": "2024-11-14T12:00:00Z"
     },
     {
-      "id": "0988",
-      "name": "rrtrt",
-      "email": "hggdg@gmail.com"
+      "id": "2",
+      "contactId": "2",
+      "text": "Let's meet at 5 PM.",
+      "timestamp": "2024-11-14T12:10:00Z"
     }
-  ]
+  ],
+  "isServerStarted": false
 }
+
