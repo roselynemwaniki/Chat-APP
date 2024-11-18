@@ -2,9 +2,8 @@
 form {
     display: flex;
     flex-direction: column;
-    background-image: url(file:///home/erick/Downloads/ppr-2%20background);
-    background-repeat: no-repeat;
-  background-size: cover;
+   
+  
   }
   
   input {
